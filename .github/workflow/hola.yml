@@ -8,4 +8,10 @@ on:
 jobs:
   hola_mundo:
   runs-on: windows-10
-  
+  steps:
+    - name: Echo message
+      run: |
+        echo "Hola Ruth"
+    - name: Dime la fecha
+      run: date
+    - run: ls -l
